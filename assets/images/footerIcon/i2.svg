@@ -1,0 +1,11 @@
+<svg id="Component_30_1" data-name="Component 30 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.466" height="18.002" viewBox="0 0 21.466 18.002">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Icon_awesome-telegram-plane" data-name="Icon awesome-telegram-plane" d="M21.406,6.167,18.166,21.443c-.244,1.078-.882,1.347-1.787.839l-4.936-3.637L9.062,20.936a1.239,1.239,0,0,1-.992.484l.355-5.027,9.148-8.266c.4-.355-.086-.551-.618-.2L5.645,15.051.777,13.527C-.282,13.2-.3,12.468,1,11.96L20.04,4.624C20.922,4.293,21.693,4.82,21.406,6.167Z" transform="translate(-0.001 -4.528)" fill="#fff" opacity="0.2"/>
+    </clipPath>
+  </defs>
+  <path id="Icon_awesome-telegram-plane-2" data-name="Icon awesome-telegram-plane" d="M21.406,6.167,18.166,21.443c-.244,1.078-.882,1.347-1.787.839l-4.936-3.637L9.062,20.936a1.239,1.239,0,0,1-.992.484l.355-5.027,9.148-8.266c.4-.355-.086-.551-.618-.2L5.645,15.051.777,13.527C-.282,13.2-.3,12.468,1,11.96L20.04,4.624C20.922,4.293,21.693,4.82,21.406,6.167Z" transform="translate(-0.001 -4.528)" fill="#fff" opacity="0.2"/>
+  <g id="Mask_Group_14" data-name="Mask Group 14" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="12.5" cy="12.5" r="12.5" transform="translate(-16.271 9.569)" fill="#08c"/>
+  </g>
+</svg>

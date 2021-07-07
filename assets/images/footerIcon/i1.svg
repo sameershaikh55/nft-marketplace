@@ -1,0 +1,11 @@
+<svg id="Component_31_1" data-name="Component 31 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.688" height="18.002" viewBox="0 0 22.688 18.002">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Icon_awesome-medium-m" data-name="Icon awesome-medium-m" d="M3.686,8.173A.886.886,0,0,0,3.4,7.432L1.285,4.88V4.5H7.861l5.084,11.149L17.415,4.5h6.271v.38L21.876,6.615a.528.528,0,0,0-.2.507V19.88a.528.528,0,0,0,.2.507l1.768,1.735v.38h-8.9v-.38l1.834-1.778c.178-.178.178-.235.178-.507V9.528l-5.1,12.941H10.97L5.042,9.528V18.2a1.181,1.181,0,0,0,.328.994l2.383,2.889v.38H1v-.375L3.381,19.2a1.143,1.143,0,0,0,.3-.994Z" transform="translate(-0.998 -4.5)" fill="#fff" opacity="0.2"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(0)" clip-path="url(#clip-path)">
+    <ellipse id="Ellipse_26" data-name="Ellipse 26" cx="17" cy="17.5" rx="17" ry="17.5" transform="translate(-30 13.569)" fill="#fff"/>
+  </g>
+  <path id="Icon_awesome-medium-m-2" data-name="Icon awesome-medium-m" d="M3.686,8.173A.886.886,0,0,0,3.4,7.432L1.285,4.88V4.5H7.861l5.084,11.149L17.415,4.5h6.271v.38L21.876,6.615a.528.528,0,0,0-.2.507V19.88a.528.528,0,0,0,.2.507l1.768,1.735v.38h-8.9v-.38l1.834-1.778c.178-.178.178-.235.178-.507V9.528l-5.1,12.941H10.97L5.042,9.528V18.2a1.181,1.181,0,0,0,.328.994l2.383,2.889v.38H1v-.375L3.381,19.2a1.143,1.143,0,0,0,.3-.994Z" transform="translate(-0.998 -4.5)" fill="#fff" opacity="0.2"/>
+</svg>
