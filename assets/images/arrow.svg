@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="31.737" height="263.268" viewBox="0 0 31.737 263.268">
-  <g id="Know_More" data-name="Know More" transform="translate(-1631.263 -864.5)">
-    <g id="Group_2" data-name="Group 2" transform="translate(0 -46)">
-      <line id="Line_1" data-name="Line 1" y2="261" transform="translate(1638.5 910.5)" fill="none" stroke="#1a1a1a" stroke-width="3"/>
-      <path id="Union_1" data-name="Union 1" d="M1.265,8.735h0v0h0v0Z" transform="translate(1631.429 1166.364) rotate(-45)" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="26.405" height="220.916" viewBox="0 0 26.405 220.916">
+  <g id="Know_More" data-name="Know More" transform="translate(-1631.586 -864.5)">
+    <g id="Group_2" data-name="Group 2" transform="translate(1632.136 864.5)">
+      <line id="Line_1" data-name="Line 1" y2="219.379" transform="translate(5.349)" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+      <path id="Union_1" data-name="Union 1" d="M.223,7.342h0v0h0v0Z" transform="translate(0 214.467) rotate(-45)" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="2"/>
     </g>
-    <text id="KNOW_MORE-2" data-name="KNOW MORE" transform="translate(1660 929) rotate(-90)" fill="#1a1a1a" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.2em"><tspan x="-45.729" y="0">KNOW MORE</tspan></text>
+    <text id="KNOW_MORE-2" data-name="KNOW MORE" transform="translate(1654.992 918.741) rotate(-90)" fill="#1a1a1a" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.2em"><tspan x="-38.107" y="0">KNOW MORE</tspan></text>
   </g>
 </svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1558" height="652" viewBox="0 0 1558 652">
+  <defs>
+    <filter id="Path_1618" x="0" y="0" width="1558" height="652" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="27" result="blur"/>
+      <feFlood flood-color="#ff8bd7" flood-opacity="0.537"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_482" data-name="Group 482" transform="translate(-205 -2173)">
+    <g transform="matrix(1, 0, 0, 1, 205, 2173)" filter="url(#Path_1618)">
+      <path id="Path_1618-2" data-name="Path 1618" d="M94,6804.9v252H1484v232" transform="translate(-10 -6720.9)" fill="none" stroke="#ff8bd7" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    </g>
+    <g id="Group_485" data-name="Group 485" transform="translate(-3.016 -3.016)">
+      <g id="Ellipse_28" data-name="Ellipse 28" transform="translate(275.016 2247.016)" fill="#fff" stroke="#ffcfef" stroke-width="2">
+        <circle cx="17" cy="17" r="17" stroke="none"/>
+        <circle cx="17" cy="17" r="18" fill="none"/>
+      </g>
+      <g id="Icon_ionic-md-rocket" data-name="Icon ionic-md-rocket" transform="translate(286.497 2254.819)">
+        <path id="Path_1619" data-name="Path 1619" d="M16.278,29.273a4.126,4.126,0,0,1-1.644-.418.3.3,0,0,0-.418.291l.134,1.954a.15.15,0,0,0,.241.107l.556-.422a.152.152,0,0,1,.218.038l.786,1.23a.15.15,0,0,0,.253,0l.786-1.23a.152.152,0,0,1,.218-.038l.556.422a.15.15,0,0,0,.241-.107l.134-1.954a.3.3,0,0,0-.418-.291A4.144,4.144,0,0,1,16.278,29.273Z" transform="translate(-10.764 -13.729)" fill="#ffcfef"/>
+        <path id="Path_1620" data-name="Path 1620" d="M18.827,11.744l-1.84-1.882c0-6.055-3.572-8.738-3.572-8.738S9.81,3.808,9.81,9.863L7.97,11.744a.319.319,0,0,0-.084.272L8.591,16.3a.293.293,0,0,0,.452.207l2.571-1.74a2.925,2.925,0,0,0,1.805.766,2.766,2.766,0,0,0,1.767-.766l2.571,1.74a.3.3,0,0,0,.452-.207l.709-4.288A.341.341,0,0,0,18.827,11.744ZM13.416,7.87a1.227,1.227,0,1,1,1.177-1.226A1.2,1.2,0,0,1,13.416,7.87Z" transform="translate(-7.882 -1.125)" fill="#ff8bd7"/>
+      </g>
+    </g>
+    <g id="Group_486" data-name="Group 486">
+      <g id="Ellipse_29" data-name="Ellipse 29" transform="translate(640 2495)" fill="#fff" stroke="#ffcfef" stroke-width="2">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="15" fill="none"/>
+      </g>
+      <g id="Icon_ionic-md-rocket-2" data-name="Icon ionic-md-rocket" transform="translate(641.577 2500.308)">
+        <path id="Path_1619-2" data-name="Path 1619" d="M15.913,29.194a3.4,3.4,0,0,1-1.353-.344.245.245,0,0,0-.344.24l.11,1.608a.123.123,0,0,0,.2.088l.457-.347a.125.125,0,0,1,.18.032l.646,1.012a.124.124,0,0,0,.208,0l.646-1.012a.125.125,0,0,1,.18-.032l.457.347a.123.123,0,0,0,.2-.088l.11-1.608a.244.244,0,0,0-.344-.24A3.41,3.41,0,0,1,15.913,29.194Z" transform="translate(-3.494 -15.281)" fill="#ffcfef"/>
+        <path id="Path_1620-2" data-name="Path 1620" d="M16.887,9.862,15.374,8.314c0-4.982-2.939-7.189-2.939-7.189S9.468,3.332,9.468,8.314L7.955,9.862a.262.262,0,0,0-.069.224l.58,3.525a.241.241,0,0,0,.372.17l2.116-1.431a2.407,2.407,0,0,0,1.485.631,2.276,2.276,0,0,0,1.454-.631l2.116,1.431a.242.242,0,0,0,.372-.17l.583-3.528A.28.28,0,0,0,16.887,9.862ZM12.435,6.674A1.01,1.01,0,1,1,13.4,5.665.988.988,0,0,1,12.435,6.674Z" fill="#ff8bd7"/>
+      </g>
+    </g>
+    <g id="Group_487" data-name="Group 487">
+      <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(1101 2495)" fill="#fff" stroke="#ffcfef" stroke-width="2">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="15" fill="none"/>
+      </g>
+      <g id="Icon_ionic-md-rocket-3" data-name="Icon ionic-md-rocket" transform="translate(1102.577 2500.308)">
+        <path id="Path_1619-3" data-name="Path 1619" d="M15.913,29.194a3.4,3.4,0,0,1-1.353-.344.245.245,0,0,0-.344.24l.11,1.608a.123.123,0,0,0,.2.088l.457-.347a.125.125,0,0,1,.18.032l.646,1.012a.124.124,0,0,0,.208,0l.646-1.012a.125.125,0,0,1,.18-.032l.457.347a.123.123,0,0,0,.2-.088l.11-1.608a.244.244,0,0,0-.344-.24A3.41,3.41,0,0,1,15.913,29.194Z" transform="translate(-3.494 -15.281)" fill="#ffcfef"/>
+        <path id="Path_1620-3" data-name="Path 1620" d="M16.887,9.862,15.374,8.314c0-4.982-2.939-7.189-2.939-7.189S9.468,3.332,9.468,8.314L7.955,9.862a.262.262,0,0,0-.069.224l.58,3.525a.241.241,0,0,0,.372.17l2.116-1.431a2.407,2.407,0,0,0,1.485.631,2.276,2.276,0,0,0,1.454-.631l2.116,1.431a.242.242,0,0,0,.372-.17l.583-3.528A.28.28,0,0,0,16.887,9.862ZM12.435,6.674A1.01,1.01,0,1,1,13.4,5.665.988.988,0,0,1,12.435,6.674Z" fill="#ff8bd7"/>
+      </g>
+    </g>
+    <g id="Group_488" data-name="Group 488">
+      <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(1665 2727)" fill="#fff" stroke="#ffcfef" stroke-width="2">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="15" fill="none"/>
+      </g>
+      <g id="Icon_ionic-md-rocket-4" data-name="Icon ionic-md-rocket" transform="translate(1666.577 2732.308)">
+        <path id="Path_1619-4" data-name="Path 1619" d="M15.913,29.194a3.4,3.4,0,0,1-1.353-.344.245.245,0,0,0-.344.24l.11,1.608a.123.123,0,0,0,.2.088l.457-.347a.125.125,0,0,1,.18.032l.646,1.012a.124.124,0,0,0,.208,0l.646-1.012a.125.125,0,0,1,.18-.032l.457.347a.123.123,0,0,0,.2-.088l.11-1.608a.244.244,0,0,0-.344-.24A3.41,3.41,0,0,1,15.913,29.194Z" transform="translate(-3.494 -15.281)" fill="#ffcfef"/>
+        <path id="Path_1620-4" data-name="Path 1620" d="M16.887,9.862,15.374,8.314c0-4.982-2.939-7.189-2.939-7.189S9.468,3.332,9.468,8.314L7.955,9.862a.262.262,0,0,0-.069.224l.58,3.525a.241.241,0,0,0,.372.17l2.116-1.431a2.407,2.407,0,0,0,1.485.631,2.276,2.276,0,0,0,1.454-.631l2.116,1.431a.242.242,0,0,0,.372-.17l.583-3.528A.28.28,0,0,0,16.887,9.862ZM12.435,6.674A1.01,1.01,0,1,1,13.4,5.665.988.988,0,0,1,12.435,6.674Z" fill="#ff8bd7"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_480" data-name="Group 480" transform="translate(-65 -2205)">
+    <text id="Q2" transform="translate(500 2609)" fill="#1a1a1a" font-size="39" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="-0.04em"><tspan x="0" y="0">Q2</tspan></text>
+    <text id="Token_Generation_Event_Token_Distribution" data-name="Token Generation Event
+Token Distribution" transform="translate(500 2649)" fill="#1a1a1a" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Token Generation Event</tspan><tspan x="0" y="33">Token Distribution</tspan></text>
+  </g>
+  <g id="Group_483" data-name="Group 483" transform="translate(-379 -2508)">
+    <text id="Q1" transform="translate(500 2609)" fill="#1a1a1a" font-size="39" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="-0.04em"><tspan x="0" y="0">Q1</tspan></text>
+    <text id="Token_Generation_Event_Token_Distribution_Marketing" data-name="Token Generation Event
+Token Distribution
+Marketing" transform="translate(500 2649)" fill="#1a1a1a" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Token Generation Event</tspan><tspan x="0" y="33">Token Distribution</tspan><tspan x="0" y="66">Marketing</tspan></text>
+  </g>
+  <g id="Group_481" data-name="Group 481" transform="translate(-224 -2163)">
+    <text id="Q3" transform="translate(1120 2456)" fill="#1a1a1a" font-size="39" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="-0.04em"><tspan x="0" y="0">Q3</tspan></text>
+    <text id="Project_IDOs_Collaboration_Anti-scam_features_Private_Pools" data-name="Project IDOs Collaboration
+Anti-scam features
+Private Pools" transform="translate(1120 2337)" fill="#1a1a1a" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Project IDOs Collaboration</tspan><tspan x="0" y="33">Anti-scam features</tspan><tspan x="0" y="66">Private Pools</tspan></text>
+  </g>
+  <g id="Group_484" data-name="Group 484" transform="translate(257 -1876)">
+    <text id="Q4" transform="translate(1120 2456)" fill="#1a1a1a" font-size="39" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="-0.04em"><tspan x="0" y="0">Q4</tspan></text>
+    <text id="Project_IDOs_Collaboration_Anti-scam_features_Private_Pools-2" data-name="Project IDOs Collaboration
+Anti-scam features
+Private Pools" transform="translate(1177 2337)" fill="#1a1a1a" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="-238.68" y="0">Project IDOs Collaboration</tspan><tspan x="-170.73" y="33">Anti-scam features</tspan><tspan x="-115.974" y="66">Private Pools</tspan></text>
+  </g>
+</svg>
