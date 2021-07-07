@@ -279,6 +279,10 @@ body {
 	.carousel_section.roadmap {
 		padding: 0rem 0rem;
 	}
+
+	.carousel_section.faq {
+		padding: 0rem 0rem 4rem 0rem;
+	}
 }
 
 // ACCORDIAN STARTS
@@ -346,14 +350,14 @@ body {
 
 	&:hover img,
 	&:focus img {
-		transform: scale(1.1);
+		transform: scale(1.07);
 	}
 }
 
 /* slick slider start */
 // SLIDER
 #box-wrapper {
-	height: 280px;
+	height: 285px;
 	width: 100%;
 	display: block;
 	overflow-y: hidden;
@@ -366,8 +370,8 @@ body {
 }
 .scroll-img-list {
 	display: inline-block;
-	height: 240px;
-	width: 200px;
+	height: 255px;
+	width: 220px;
 	border-radius: 10px;
 	box-shadow: 1px 1px 15px rgb(233, 233, 233);
 	padding: 1.4rem;
@@ -377,8 +381,8 @@ body {
 		font-size: 1rem;
 	}
 	p {
-		font-size: 0.7rem;
-		font-weight: bold;
+		font-size: 0.8rem;
+		font-weight: 500;
 		line-height: 20px;
 		margin-bottom: 0px;
 	}

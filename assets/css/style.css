@@ -277,6 +277,10 @@ body {
   padding: 0rem 0rem;
 }
 
+.body_container .carousel_section.faq {
+  padding: 0rem 0rem 4rem 0rem;
+}
+
 .accordian_container .accordion-button:not(.collapsed) {
   color: #000;
   font-weight: 800;
@@ -344,13 +348,13 @@ body {
 
 .comingsoonImgCont:hover img,
 .comingsoonImgCont:focus img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
 }
 
 /* slick slider start */
 #box-wrapper {
-  height: 280px;
+  height: 285px;
   width: 100%;
   display: block;
   overflow-y: hidden;
@@ -365,8 +369,8 @@ body {
 
 .scroll-img-list {
   display: inline-block;
-  height: 240px;
-  width: 200px;
+  height: 255px;
+  width: 220px;
   border-radius: 10px;
   -webkit-box-shadow: 1px 1px 15px #e9e9e9;
           box-shadow: 1px 1px 15px #e9e9e9;
@@ -379,8 +383,8 @@ body {
 }
 
 .scroll-img-list p {
-  font-size: 0.7rem;
-  font-weight: bold;
+  font-size: 0.8rem;
+  font-weight: 500;
   line-height: 20px;
   margin-bottom: 0px;
 }
