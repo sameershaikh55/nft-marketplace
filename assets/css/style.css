@@ -158,10 +158,11 @@ body {
 
 .hero_container .tabs a {
   font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .hero_container .tabs a:hover {
-  color: #ff8bd7;
+  color: #000;
 }
 
 .hero_container .headerContainer {

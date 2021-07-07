@@ -154,9 +154,10 @@ body {
 	.tabs {
 		a {
 			font-size: 0.8rem;
+			font-weight: 600;
 
 			&:hover {
-				color: $color2;
+				color: #000;
 			}
 		}
 	}
