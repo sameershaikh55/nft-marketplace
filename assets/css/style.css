@@ -102,6 +102,11 @@ html {
   z-index: 1;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 .sideBar {
   position: fixed;
   top: 50%;
@@ -505,6 +510,9 @@ html {
   }
   .hero_container .arrow_container img {
     width: 25px;
+  }
+  .body_container {
+    background: url(../images/bodyM.svg);
   }
 }
 /*# sourceMappingURL=style.css.map */

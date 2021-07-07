@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap");
 * {
 	padding: 0%;
 	margin: 0%;
@@ -97,6 +97,11 @@ html {
 
 .index1 {
 	z-index: 1;
+}
+
+body {
+	overflow-x: hidden;
+	width: 100%;
 }
 // GLOBAL END
 
@@ -516,6 +521,9 @@ html {
 	}
 	.hero_container .arrow_container img {
 		width: 25px;
+	}
+	.body_container {
+		background: url(../images/bodyM.svg);
 	}
 }
 // MEDIA QUERIES END
