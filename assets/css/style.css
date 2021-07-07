@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -145,6 +145,10 @@ html {
   font-size: 0.8rem;
 }
 
+.hero_container .tabs a:hover {
+  color: #ff8bd7;
+}
+
 .hero_container .headerContainer {
   padding: 1.6rem 3.5rem;
 }
@@ -199,6 +203,7 @@ html {
   border-radius: 10px;
   -webkit-box-shadow: 1px 1px 10px #dadada;
           box-shadow: 1px 1px 10px #dadada;
+  background-color: #fff;
 }
 
 .headerBtns button:nth-child(1) img {
@@ -280,6 +285,11 @@ html {
 .accordian_container .accordion-item {
   background: transparent;
   border: none;
+}
+
+.accordian_container .accordion-body {
+  font-weight: lighter;
+  color: #838383;
 }
 
 .footer_container {

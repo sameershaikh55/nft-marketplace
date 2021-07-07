@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
 * {
 	padding: 0%;
 	margin: 0%;
@@ -143,6 +142,10 @@ html {
 	.tabs {
 		a {
 			font-size: 0.8rem;
+
+			&:hover {
+				color: $color2;
+			}
 		}
 	}
 
@@ -203,6 +206,7 @@ html {
 		padding: 0.6rem 1.2rem;
 		border-radius: 10px;
 		box-shadow: 1px 1px 10px #dadada;
+		background-color: #fff;
 
 		img {
 			width: 90%;
@@ -286,6 +290,10 @@ html {
 	.accordion-item {
 		background: transparent;
 		border: none;
+	}
+	.accordion-body {
+		font-weight: lighter;
+		color: #838383;
 	}
 }
 // ACCORDIAN END
