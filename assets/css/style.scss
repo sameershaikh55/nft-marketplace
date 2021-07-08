@@ -10,6 +10,12 @@ $colo1: #abaaae;
 $color2: #ff8bd7;
 $color3: #1a1a1a;
 
+// MIXIN START
+@mixin transition {
+	transition: 0.8s all;
+}
+// MIXIN END
+
 // GLOBAL CLASSES START
 html {
 	width: 100%;
@@ -150,6 +156,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	transition: 0.8s;
+	padding-top: 5rem;
 
 	.tabs {
 		a {
@@ -163,7 +171,19 @@ body {
 	}
 
 	.headerContainer {
+		position: fixed;
+		top: 0%;
+		left: 0%;
 		padding: 1.6rem 3.5rem;
+		width: 100%;
+		z-index: 999999;
+		transition: 0.8s;
+	}
+
+	.headerContainer.sticky {
+		background-color: rgba(255, 255, 255, 0.9);
+		transition: 0.8s;
+		padding: 0.5rem 3.5rem;
 	}
 
 	.heroContent {
@@ -190,6 +210,12 @@ body {
 				background: #000;
 				border-radius: 10px;
 				font-size: 0.7rem;
+				@include transition;
+
+				&:hover {
+					background: rgb(56, 56, 56);
+					box-shadow: 1px 1px 10px #707070;
+				}
 			}
 
 			button:nth-child(2) {
@@ -198,6 +224,12 @@ body {
 				padding: 0.9rem 1.8rem;
 				border-radius: 10px;
 				font-size: 0.7rem;
+				@include transition;
+
+				&:hover {
+					background: #ff8bd7;
+					box-shadow: 1px 1px 10px #ff8bd7;
+				}
 			}
 		}
 	}
@@ -220,9 +252,15 @@ body {
 		// border-radius: 10px;
 		box-shadow: 1px 1px 10px #e4e4e4;
 		background-color: #fff;
+		@include transition;
 
 		img {
 			width: 90%;
+		}
+
+		&:hover {
+			background: #fff;
+			box-shadow: 1px 1px 10px rgb(206, 206, 206);
 		}
 	}
 	button:nth-child(2) {
@@ -232,6 +270,12 @@ body {
 		border-radius: 10px;
 		box-shadow: 1px 1px 10px #dadada;
 		font-size: 0.7rem;
+		@include transition;
+
+		&:hover {
+			background: #ff8bd7;
+			box-shadow: 1px 1px 10px #ff8bd7;
+		}
 	}
 }
 // === HERO SECTION END
@@ -356,6 +400,20 @@ body {
 
 /* slick slider start */
 // SLIDER
+.splideSlider {
+	.splide__slide {
+		padding: 1rem 0rem;
+	}
+	.splide__arrow {
+		top: 108%;
+		background: #fff;
+	}
+	.splide__arrow--prev {
+		left: auto;
+		right: 3.5em;
+	}
+}
+
 #box-wrapper {
 	height: 285px;
 	width: 100%;
@@ -375,7 +433,6 @@ body {
 	border-radius: 10px;
 	box-shadow: 1px 1px 15px rgb(233, 233, 233);
 	padding: 1.4rem;
-	background-color: #fff;
 
 	h5 {
 		font-size: 1rem;
@@ -536,7 +593,7 @@ body {
 		background-position: center;
 	}
 	.scroll-img-list .card_icon {
-		padding: 0.3rem 0.4rem;
+		padding: 0.1rem 0.35rem 0.4rem 0.35rem;
 	}
 	.scroll-img-list .card_icon img {
 		width: 75%;
@@ -556,6 +613,12 @@ body {
 	}
 	.body_container {
 		background: url(../images/bodyM.svg);
+	}
+}
+
+@media screen and (min-width: 668px) {
+	.scroll-img-list {
+		background-color: #fff;
 	}
 }
 // MEDIA QUERIES END
