@@ -22,12 +22,12 @@
 		/>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<title>NFT Marketplace</title>
 	</head>
 	<body>
 		<!-- ==== SIDEBAR START ==== -->
-		<di v id="sideBarId" class="sideBar">
+		<div id="sideBarId" class="sideBar">
 			<div class="d-flex flex-column">
 				<div id="closeSidebar" onclick="closeSidebar()" class="align-self-end">
 					<i class="bi bi-x-lg"></i>
@@ -44,18 +44,12 @@
 						</a>
 					</li>
 					<li onclick="closeSidebar()" class="mt-3">
-						<a
-							class="text-decoration-none text-dark fw-bold"
-							href="#roadmap"
-						>
+						<a class="text-decoration-none text-dark fw-bold" href="#roadmap">
 							ROADMAP
 						</a>
 					</li>
 					<li onclick="closeSidebar()" class="mt-3">
-						<a
-							class="text-decoration-none text-dark fw-bold"
-							href="#coming"
-						>
+						<a class="text-decoration-none text-dark fw-bold" href="#coming">
 							Coming Soon
 						</a>
 					</li>
@@ -77,13 +71,14 @@
 					</div>
 				</ul>
 			</div>
-		</di>
+		</div>
 		<!-- ==== SIDEBAR END ==== -->
 
 		<!-- ======== HERO SECTION START ========== -->
 		<div id="about" class="hero_container position-relative">
 			<!-- HEADER START -->
 			<div
+				data-aos="fade-down"
 				class="
 					headerContainer
 					d-flex
@@ -99,9 +94,15 @@
 				</div>
 				<div class="d-none d-lg-flex tabs text-uppercase mt-2">
 					<a class="text-decoration-none color1" href="#about">About</a>
-					<a class="text-decoration-none color1 ms-5" href="#feature">Features</a>
-					<a class="text-decoration-none color1 ms-5" href="#roadmap">ROADMAP</a>
-					<a class="text-decoration-none color1 ms-5" href="#coming">Coming Soon</a>
+					<a class="text-decoration-none color1 ms-5" href="#feature"
+						>Features</a
+					>
+					<a class="text-decoration-none color1 ms-5" href="#roadmap"
+						>ROADMAP</a
+					>
+					<a class="text-decoration-none color1 ms-5" href="#coming"
+						>Coming Soon</a
+					>
 					<!-- <a class="text-decoration-none color1 ms-5" href="">Partners</a> -->
 					<a class="text-decoration-none color1 ms-5" href="#faq">FAQs</a>
 				</div>
@@ -142,7 +143,7 @@
 			</div>
 			<!-- HERO TEXT END -->
 
-			<div class="bgRedBox">
+			<div data-aos="fade-left" data-aos-delay="500" class="bgRedBox">
 				<img src="assets/images/redbox.svg" alt="readbox" />
 			</div>
 		</div>
@@ -153,7 +154,7 @@
 			<!-- ======== CAROUSEL SECTION START ========== -->
 			<div id="feature" class="carousel_section">
 				<div class="screenSize">
-					<div class="container-fluid">
+					<div data-aos="fade-right" class="container-fluid">
 						<div class="row">
 							<div class="col-12 mx-auto">
 								<span class="section_heading">
@@ -164,7 +165,7 @@
 						</div>
 					</div>
 
-					<div class="container-fluid">
+					<div data-aos="fade" class="container-fluid">
 						<div class="row">
 							<div
 								class="
@@ -440,7 +441,7 @@
 			<!-- ======== ROADMAP SECTION END ========== -->
 			<div id="roadmap" class="carousel_section roadmap">
 				<div class="screenSize">
-					<div class="container-fluid">
+					<div data-aos="fade-right" class="container-fluid">
 						<div class="row">
 							<div class="col-12 mx-auto">
 								<span class="section_heading">
@@ -451,7 +452,7 @@
 						</div>
 					</div>
 
-					<div class="container-fluid mt-5">
+					<div data-aos="fade" class="container-fluid mt-5">
 						<div class="row">
 							<div class="col-11 col-md-12 mx-auto">
 								<img
@@ -476,7 +477,7 @@
 				<div class="screenSize">
 					<!-- <div class="container-fluid"> -->
 					<!-- <div class="row"> -->
-					<div>
+					<div data-aos="fade-right" data-aos-offset="600">
 						<span class="section_heading comingSoon">
 							<img src="assets/images/commingsoon.svg" alt="comming" />
 							<h3 class="mb-0 text-uppercase fw-bolder">Coming soon</h3>
@@ -492,6 +493,8 @@
 								<div class="col-8 mb-5">
 									<div class="comingsoonImgCont">
 										<img
+											data-aos="zoom-in"
+											data-aos-offset="600"
 											class="w-100"
 											src="assets/images/comimgsoon/img1.png"
 											alt="coming"
@@ -499,15 +502,25 @@
 									</div>
 								</div>
 								<div class="col-4 mb-5 align-self-center">
-									<h2 class="fw-bolder">MARKETPLACE</h2>
+									<h2 data-aos="fade" data-aos-offset="600" class="fw-bolder">
+										MARKETPLACE
+									</h2>
 								</div>
 
 								<div class="col-4 my-5 align-self-center text-end">
-									<h2 class="fw-bolder text-uppercase">ONLY Quality Content</h2>
+									<h2
+										data-aos="fade"
+										data-aos-offset="600"
+										class="fw-bolder text-uppercase"
+									>
+										ONLY Quality Content
+									</h2>
 								</div>
 								<div class="col-8 my-5">
 									<div class="comingsoonImgCont">
 										<img
+											data-aos="zoom-in"
+											data-aos-offset="600"
 											class="w-100"
 											src="assets/images/comimgsoon/img2.png"
 											alt="coming"
@@ -518,6 +531,8 @@
 								<div class="col-8 my-5">
 									<div class="comingsoonImgCont">
 										<img
+											data-aos="zoom-in"
+											data-aos-offset="600"
 											class="w-100"
 											src="assets/images/comimgsoon/img3.png"
 											alt="coming"
@@ -525,7 +540,11 @@
 									</div>
 								</div>
 								<div class="col-4 my-5 align-self-center">
-									<h2 class="fw-bolder text-uppercase">
+									<h2
+										data-aos="fade"
+										data-aos-offset="600"
+										class="fw-bolder text-uppercase"
+									>
 										Connects artists & investors
 									</h2>
 								</div>
@@ -538,7 +557,10 @@
 					<div class="d-block d-xl-none">
 						<div class="container-fluid">
 							<div class="row">
-								<div class="col-9 col-md-7 mt-5 ps-4 ps-md-0">
+								<div
+									data-aos="fade-left"
+									class="col-9 col-md-7 mt-5 ps-4 ps-md-0"
+								>
 									<img
 										class="w-100"
 										src="assets/images/comimgsoon/img1.png"
@@ -546,7 +568,7 @@
 									/>
 									<h5 class="text-center mt-2 fw-bolder">MARKETPLACE</h5>
 								</div>
-								<div class="col-9 col-md-7 mt-5 ms-auto">
+								<div data-aos="fade-left" class="col-9 col-md-7 mt-5 ms-auto">
 									<img
 										class="w-100"
 										src="assets/images/comimgsoon/img2.png"
@@ -556,7 +578,7 @@
 										ONLY Quality Content
 									</h5>
 								</div>
-								<div class="col-9 col-md-7 mt-5 mt-5 ps-4">
+								<div data-aos="fade-left" class="col-9 col-md-7 mt-5 mt-5 ps-4">
 									<img
 										class="w-100"
 										src="assets/images/comimgsoon/img3.png"
@@ -653,13 +675,13 @@
 				<div class="screenSize">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-12 mx-auto">
+							<div class="col-12 mx-auto" data-aos="fade-right">
 								<span class="section_heading faq">
 									<img src="assets/images/faq.svg	" alt="comming" />
 									<h3 class="mb-0 fw-bolder">FAQs</h3>
 								</span>
 
-								<div class="accordian_container my-4">
+								<div data-aos="fade-right" class="accordian_container my-4">
 									<div class="accordion" id="accordionExample">
 										<div class="accordion-item">
 											<h2 class="accordion-header" id="headingOne">
@@ -836,7 +858,10 @@
 
 		<!-- EXTERNAL CDN START -->
 		<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
+			AOS.init();
+
 			var scrolled = 0;
 			$(".scroll-left").on("click", function () {
 				scrolled = scrolled - 300;
