@@ -127,7 +127,7 @@ body {
 	bottom: 0%;
 	transform: translate(-50%, -50%);
 	background-color: #fff;
-	z-index: 99999;
+	z-index: 9999999999999999999999999999;
 	display: none;
 	opacity: 0;
 	transition: 2s;
@@ -527,7 +527,7 @@ body {
 // MEDIA QUERIES START
 @media screen and (max-width: 1098px) {
 	.hero_container .headerContainer {
-		padding: 1.6rem 2rem;
+		padding: 0.8rem 2rem;
 	}
 
 	.hero_container .heroContent {
@@ -543,8 +543,14 @@ body {
 }
 
 @media screen and (max-width: 888px) {
-	.hero_container .headerContainer {
-		padding: 1.6rem 1.5rem;
+	.hero_container {
+		.headerContainer {
+			padding: 1.6rem 1.5rem;
+		}
+
+		.headerContainer.sticky {
+			padding: 0.8rem 1.5rem;
+		}
 	}
 	.hero_container .heroContent {
 		width: 90%;
